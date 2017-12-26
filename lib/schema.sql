@@ -14,17 +14,17 @@ CREATE TABLE series (
   subgenre_id INTEGER
 );
 
-CREATE TABLE subgenres(
+CREATE TABLE subgenres (
   id INTEGER PRIMARY KEY,
   name TEXT
 );
 
-CREATE TABLE authors(
+CREATE TABLE authors (
   id INTEGER PRIMARY KEY,
   name TEXT
 );
 
-CREATE TABLE character_books(
+CREATE TABLE character_books (
   id INTEGER PRIMARY KEY,
   title TEXT,
   year DATE,
