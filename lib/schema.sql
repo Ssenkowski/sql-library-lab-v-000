@@ -29,7 +29,8 @@ CREATE TABLE books (
   title TEXT,
   year DATE,
   series_id INTEGER
-)
+);
+
 CREATE TABLE character_books (
   id INTEGER PRIMARY KEY,
   title TEXT,
