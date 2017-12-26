@@ -24,7 +24,7 @@ CREATE TABLE authors(
   name TEXT
 );
 
-CREATE TABLE books(
+CREATE TABLE character_books(
   id INTEGER PRIMARY KEY,
   title TEXT,
   year DATE,
